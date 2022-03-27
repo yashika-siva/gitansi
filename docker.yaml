@@ -1,5 +1,5 @@
 ---
- - hosts: 192.168.56.2
+ - hosts: localhost
    tasks:
     - name: deploy ssh key to account
       authorized_key: user='root' key="{{lookup('file','/root/.ssh/id_rsa.pub')}}"
