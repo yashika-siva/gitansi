@@ -1,5 +1,5 @@
 ---
- - hosts: 192.168.56.2
+ - hosts: dbserver
    tasks:
 
     - name: install yum utils
