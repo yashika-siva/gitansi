@@ -1,0 +1,7 @@
+- hosts: 192.168.56.2
+  tasks:
+   - name: filecreation
+     file:
+        path: /root/file.txt
+        state: touch
+        mode: u+x
