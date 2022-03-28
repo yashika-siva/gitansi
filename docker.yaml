@@ -1,5 +1,5 @@
 ---
- - hosts: localhost
+ - hosts: 192.168.56.2
    tasks:
 
     - name: install yum utils
