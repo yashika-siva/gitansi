@@ -1,0 +1,7 @@
+[dbserver]
+192.168.56.2
+[dbserver:vars]
+ansible_user=root
+ansible_ssh_passwd=Yashika@09
+ansible_ssh_port=22
+
